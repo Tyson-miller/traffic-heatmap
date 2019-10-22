@@ -1,4 +1,4 @@
-# Intro
+# Overview
 
 **Goal** 
 The goal of this project is to use the city of Chicago's rideshare data 
@@ -8,7 +8,7 @@ caused by various rideshare companies.
 **Method** 
 Our method is to use 5 columns of the data (Trip Start Timestamp, Pickup
 Centroid Latitude, Pickup Centroid Longitude, Dropoff Centroid Latitude, Dropoff
-Centroid Longitude) and use google cloud to run mapreduce to cluster the trips 
+Centroid Longitude) and use google cloud and MapReduce to cluster the trips 
 that have identical trip start timestamps and that also intersect meaning their 
 pickup and dropoff locations form line segments that cross. Once we have this 
 tree structure, which is a sorted key,value structure where the key is the date
@@ -22,7 +22,12 @@ For security reasons, the data only includes Census track centroid pickup and
 dropoff coordinates. This means we are only able to get at best within about
 an 89,000 square foot radius of the actual pickup and dropoff locations so our 
 intersection coordinates are not exactly accurate. Also, the timestamps are rounded
-to the nearest 15 minutes. 
+to the nearest 15 minutes.
+
+# Features
+* Cloud-Computing/Dataproc
+* MapReduce
+* Data Visualization
 
 # Technologies
 * Python 3.5
