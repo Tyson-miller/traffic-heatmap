@@ -30,3 +30,8 @@ to the nearest 15 minutes.
 * Bintrees - Tree structure used in reducer to yield data in sorted key order
 * Shapely - Analyze geometric objects (line segment intersections)
 * Folium - Data Visualization/HeatMap
+
+# Authors
+* Tyson Miller
+* Thomas Wilson
+* Matt Auerbach
