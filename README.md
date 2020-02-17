@@ -18,8 +18,6 @@ organized by date and then by time to create 2 heatmap HTML's depicting the
 heatmap of traffic in Chicago for each hour of the day and for each day of the week.
 
 **Files** 
-* #Day heatmap.html - HTML file for the heatmap with days as indices
-* #Time heatmap.html - HTML file for the heatmap with hours as indices
 * Heatmap.ipynb - Jupyter notebook file with code converting JSON file output from mapreduce to heatmap
 * Convert.py - Converts JSON to pandas
 * Geo.csv - CSV file containing coordinates to make map of Chicago
